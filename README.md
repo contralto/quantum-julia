@@ -1,6 +1,6 @@
-# Quantum Simulator in Julia
+# Quantum Computing Simulator in Julia
 
-## Glossary of Quantum Terms
+## Glossary of Quantum Computing Terms
 
 * __qubit__: dimension
 * __amplitude__: complex number
