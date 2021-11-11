@@ -135,7 +135,7 @@ end
 function transform_with_matrix!(state::State, target::Int, gate::Gate,
                                 cond::Function = f(x::Int)::Bool = true)
     n = length(state)
-    target = Int(log2(length(state))) - target - 1
+    target = Int(log2(n)) - target - 1
     G = Matrix{ComplexF64}(I, n, n)
 
     factor = 2 ^ (target + 1)
